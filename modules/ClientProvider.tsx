@@ -14,7 +14,7 @@ function ClientProvider({children}: {children: React.ReactNode}) {
       <ThemeProvider attribute='class' defaultTheme='system' enableSystem disableTransitionOnChange>
         {children}
         <Toaster />
-        <ThemeButton />
+        {/* <ThemeButton /> */}
       </ThemeProvider>
     </QueryClientProvider>
   );

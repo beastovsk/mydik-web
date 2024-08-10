@@ -24,6 +24,7 @@ import {
   User,
   BriefcaseBusiness,
   X,
+  Rabbit,
   type Icon as LucideIcon
 } from 'lucide-react';
 
@@ -53,5 +54,6 @@ export const Icons = {
   laptop: Laptop,
   case: BriefcaseBusiness,
   twitter: Twitter,
-  check: Check
+  check: Check,
+  rabbit: Rabbit
 };

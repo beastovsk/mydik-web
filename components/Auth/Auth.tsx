@@ -55,7 +55,7 @@ export function UserAuthForm({className, ...props}: UserAuthFormProps) {
     if (data.message) toast({title: 'Уведомление', description: data.message});
     if (data.token) {
       setCookie('token', data.token);
-      push('/home');
+      // push('/home');
     }
   };
 
@@ -86,7 +86,7 @@ export function UserAuthForm({className, ...props}: UserAuthFormProps) {
 
   useEffect(() => {
     if (token) {
-      push('/home');
+      // push('/home');
     }
   }, [token]);
 
